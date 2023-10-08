@@ -9,6 +9,9 @@ eval "$(starship init zsh)"
 # zsh syntax highlighting
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
+# aliases
+alias config='/usr/bin/git --git-dir=/Users/austin/.cfg/ --work-tree=/Users/austin'
+alias ls='ls -G'
+
 # Fig post block. Keep at the bottom of this file.
 [[ -f "$HOME/.fig/shell/zshrc.post.zsh" ]] && builtin source "$HOME/.fig/shell/zshrc.post.zsh"
-alias config='/usr/bin/git --git-dir=/Users/austin/.cfg/ --work-tree=/Users/austin'
